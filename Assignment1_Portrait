@@ -1,56 +1,8 @@
-let str_w = 0;
-let str_w1 = 1;
-let str_w2 = 2;
+#Assignment #1 - Self-Protrait
 
-function setup() {
-  createCanvas(400, 400);
-  ellipseMode(CENTER);
-  rectMode(CENTER);
-}
+This is my first work done in p5.js.
+I made my portrait using the simplest figures: lines, triangled, ellipses, rectangles etc.
+Among the challenges I faced were coordinating in canva, figuring out the right points and positions for my figures. 
 
-function draw() {
-  background(255);
-  //head, body, hair
-  strokeWeight(str_w1);
-  fill(138, 85, 44);
-  ellipse(200, 250, 240, 400); //hair
-  line(220, 53, 210, 70);
-  fill(255, 232, 23);
-  strokeWeight(str_w);
-  triangle(30, 400, 75, 305, 75, 400); //left hand
-  triangle(370, 400, 325, 400, 325, 305); //right hand
-  rect(200, 360, 250, 110); //body
+[Link to the project](https://editor.p5js.org/lizadat/sketches/zp7vgvjai)
 
-  //faceDetails
-  fill(255, 209, 186);
-  strokeWeight(str_w);
-  rect(200, 280, 50, 50); //neck
-  fill(255, 209, 186);
-  strokeWeight(str_w1);
-  ellipse(200, 170, 150, 200); //face
-  strokeWeight(str_w2);
-  line(190, 120, 145, 125); //l_eyebrow
-  line(210, 120, 255, 125); //r_eyebrow
-
-  strokeWeight(str_w1);
-  fill(255);
-  ellipse(170, 140, 35, 20); //left eye
-  ellipse(230, 140, 35, 20); //right eye
-  fill(161, 211, 255);
-  ellipse(170, 140, 18, 18); //left_eye_inside
-  ellipse(230, 140, 18, 18); //right_eye_inside
-  fill(0);
-  ellipse(170, 140, 7, 7);
-  ellipse(230, 140, 7, 7);
-  fill(255, 113, 97);
-  strokeWeight(str_w);
-  ellipse(210, 225, 20, 10); //up_rlip
-  ellipse(190, 225, 20, 10); //up_llip
-  ellipse(200, 227, 40, 8); //d_lip
-  fill(255, 183, 145);
-  ellipse(160, 185, 30, 30); //r_blush
-  ellipse(240, 185, 30, 30); //l_blush
-  quad(195, 165, 191, 195, 209, 195, 205, 165); //nose
-  ellipse(196, 195, 9, 8); //nose2
-  ellipse(204, 195, 9, 8);
-}
