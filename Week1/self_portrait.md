@@ -1,4 +1,4 @@
-# Assignment #1 - Self-Protrait
+# Assignment #1 - Self-Portrait
 
 * This is my first work done in p5.js.
 I made my portrait using the simplest figures: lines, triangled, ellipses, rectangles etc.
