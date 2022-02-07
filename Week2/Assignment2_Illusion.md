@@ -10,4 +10,4 @@
 
 [Link to project](https://editor.p5js.org/lizadat/sketches/dXOPFOShw)
 ![Link to the image](https://github.com/lizadat/Intro_to_IM/blob/fdc7c67adba3bdabbeefb1a38686a9048029c002/hypn_illusion.png)
-![Link to the image2]()
+![Link to the image2](https://github.com/lizadat/Intro_to_IM/blob/d19a5fa64672af7ea00994c8278d8643809ac9ad/hypn_illusion_randomcol.png)
