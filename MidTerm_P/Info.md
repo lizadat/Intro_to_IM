@@ -11,4 +11,5 @@
 * For on-screen text: In the begining of the game the player will be able to see the message of the game description and will have to press the key for the game to start.
 * To implement my idea I did the research and found the YouTube series of how to create tetris in p5.js, which has 7 parts. 
 [The first part is here](https://www.youtube.com/watch?v=Wcb0_Q9r6i4)
-![One more example on how to create tetris]()
+
+![One more example on how to create tetris](https://github.com/lizadat/Intro_to_IM/blob/f5746fcb9f2ab0e7c5b41bea55c65ab121b3284a/MidTerm_P/Short_example_for_tetris.png)
