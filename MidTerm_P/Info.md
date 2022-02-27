@@ -1,6 +1,6 @@
 # Midterm Project - Tetris
 * For my midterm project for Introduction to Interactive Media class I want to create a tetris game.
-![Example of the game](MidTerm_P/GameExample.png)
+![Example of the game](https://github.com/lizadat/Intro_to_IM/blob/76c84db182443ca42269a9df03cea921b0f075b9/MidTerm_P/GameExample.png)
 * I was inspired by my childhood memories, when I played it on the separate device when there were no phones yet.
 * It is a very interesting games which develops your attention skills and motility.
 * For shapes: The tetris game is where the 7 different shapes move down, so I will be using the array for creating a shape.
