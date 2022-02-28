@@ -13,3 +13,7 @@
 [The first part is here](https://www.youtube.com/watch?v=Wcb0_Q9r6i4)
 
 ![One more example on how to create tetris](https://github.com/lizadat/Intro_to_IM/blob/f5746fcb9f2ab0e7c5b41bea55c65ab121b3284a/MidTerm_P/Short_example_for_tetris.png)
+[Another source for creating the game](https://github.com/nnxa/tetris)
+
+* As of now I do not know if I am able to write such code, but I will at least try. Probably, the game will not have a feature to rotate the shape or any levels of the game. Ot will probably depend on time I will have.
+* For now I have not started any coding (I have been very dissapointed and worried by the russian invasion that happened in my country - Ukraine). I hope to get over myself soon and continue on keeping up will all the classes as well as MidTerm project.
