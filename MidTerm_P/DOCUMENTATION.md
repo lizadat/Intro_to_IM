@@ -1,25 +1,33 @@
 # Midterm Project - Tetris
 * For my midterm project for Introduction to Interactive Media class I created a tetris game.
 ![Example of the game](https://github.com/lizadat/Intro_to_IM/blob/76c84db182443ca42269a9df03cea921b0f075b9/MidTerm_P/GameExample.png)
-* I was inspired by my childhood memories, when I played it on the separate device when there were no phones yet.
-* It is a very interesting games which develops your attention skills and motility.
-* The tetris game is where the 7 different shapes move down, you can rotate them and store on the bottom. The end is when there is no space left and the bottom reaches the top.
+* I was inspired by my childhood memories, when I played it on the separate device when there were no phones yet. It is a very interesting games which develops your attention skills and motility. The tetris game is where the 7 different randomly generated shapes move down, you can rotate them and store on the bottom. The end is when there is no space left - the bottom reaches the top. You want to be as more percise as possible to store all the pieces without any "holes".
 ![How the shapes in tetris look like](https://github.com/lizadat/Intro_to_IM/blob/bc499a9d7ff83fc0d797d8ec9207f582b1b87826/MidTerm_P/TetrisShapes.png)
 # My game
-* I started making my game with following the series of 7 videos on how to create tetris. The code was clear to me but sometimes I faced problems with understanding the syntax. Because of that I had a few errors while coding, but it helped me to discover javascript more and to learn new functions.
-[The first part of the series is here](https://www.youtube.com/watch?v=Wcb0_Q9r6i4)
-* It took me around 5 days to complete it, but as a result it all worked. I have separate files with Box (creates a box), Piece(generates piece, does rotations) and Plotform (creates platform, deals with colission) classes. In addition to it I have a file with some the constants for the game which are related to the proccess of playing; collisionHandler which deals with pieces colission; sketch.
-* Another challenge came when I tried to implement my ideas. The first was that I wanted to have a piece of the image to be shown through the piece and the point of the game to be "recreating the image"
-* An image is randomly chosen out of 4 and shown in the beginning of the game. Then the image is converted into the list for displaying it in the piece.
-![My images](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/images.png)
-* The game starts with this screen
+* I started making my game with following the series of 7 videos on how to create tetris. The coding process was sometimes clear, but sometimes I faced problems with understanding the syntax or the function algorithm. I tried not just rewriting the code but actually understanding what I am doing and how the program works. Because of trying to recreate the code I had a few errors while coding (misspelling the variables, missing the brackets etc), but it helped me to discover javascript more and to learn new functions, methods. Also I practiced a lot with using classes and different files with classes, because my program is pretty partial.
+[You can find the first part of the series that I followed here](https://www.youtube.com/watch?v=Wcb0_Q9r6i4)
+* It took me around 5 days of some-time coding every day to write the game process itself and make it actually work. As a result I have separate files with Box (creates a box, every piece consists of 3-4 boxes), Piece(generates piece, does rotations) and Platform (creates platform, deals with colission) classes. In addition to it I have a file with the constants for the game which are related to the proccess of playing; collisionHandler which deals with pieces colission; sketch.
+* The game starts with this screen. To start playing you should press SPACE. The guidance for the game is displayed below.
 ![Start Screen](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/startScreen.png)
-* Also to have the end of the game I had to reset the game when the last piece reaches the top. I struggled a lot with that, as in my example it was cleared up and started again, but I wanted it to quit. So after long time I came up with the algorithm and gpt help from the Unix Lad in implementing.
-* The game has a sound: when the piece is moved left, right, down and when it rotates.
+* An image is randomly chosen out of 4 and shown in the beginning of the game. Then the image is converted into the list for displaying it in every piece. (For some reason, left bottom picture has never been chosen when I was testing the game)
+![My images](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/images.png)
+* When the game starts, the background is black. New pieces are generated at the middle of the width on the top and they come down. As soon as the piece is down, a new piece is generated. 
 ![Progress of the game](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/progress1.png)
-* To stop playing before reaching the top you can press Space 
-![Enter was pressed](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/progress2_enter.png) and if you want to continue with the progress - press space again. If you want to start over - press Enter to go back to the Beginning. If you reach the top the game will automatically stop.
-* There is winning and losing in the game. The key is to recreate at least 62% of the image, which is equall to 250 boxes out of 400.
+* You can move the piece by pressing left and right arrows, it will move accordingly. To rotate the piece you can press the up arrow. To increase the gravity of the piece, to make it fall faster you can use the down array. All these movements are followed by different sounds. 
+* To stop playing (to pause) before reaching the top you can press Space. You are shown the result of your game at that moment, but if you have not reached the top yet and want to continue - you can press SPACE again.
+![Space was pressed](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/progress2_enter.png) If you want to start over - press Enter to go back to the Start screen. If you reach the top the game will automatically stop, you will be displayed the result and there is no way to continue.
+* This is a winning or losing in the game. The key is to recreate at least 62% of the image, which is equall to 250 boxes out of 400. You are not shown your current result and you can keep playing till reaching the top or pressinf SPACE.
 ![The end](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/progress3_AutoEnd.png)
+* What BUGS I have:
+* I wanted to randomly choose the image every time the game is restarted, but it is randomly chosen once, only when you start the program. I am pretty sure it can be done, but I did not have enough time to complete it.
+* My pieces collission is determined only when the bottom and the top collides. But when I for example move piece to another piece from the side, right or left, it does not see it as a collission. I did not know aabout this issue till sending it to my brother to show what I have done. To fix it I will need o add more conditions for pieces colliding handler.
+* Sometimes in the beginning the black screen is shown. I do not know what is the reason, maybe it is the browser. To fix it you have to refresh the page.
+* What I could do to improve my game? - I could work more on the design, especially on the text. I do no like how it looks like, but I focused more on the game itself, on the algorithms and feel like to work with look is much easier.
+* Challenges that I faced:
+* When I tried to implement my ideas: I know what I want to do, but do not know how. The first was that I wanted to have a piece of the image to be shown through the piece and the point of the game to be "recreating the image". The professor helped me a lot with the idea, because I was thinking about "filling" the piece like with the color, but professor suggested to draw a part of the image on the top of the piece. As a result I created a list of all small pieces of the image and at the place where every piece was moving or placed I was able to show an image.
+* To have the end of the game was hard. In the code that I followed there was no end. I wanted to reset the game when the last piece reaches the top, because it is actually how the game is played. I struggled a lot with that, as in the video it was cleared up and started again, when I wanted it to quit. So after long time I came up with the algorithm and got some help from the Unix Lad to implement it.
+* Unfortunately I have not taken any screenshots of my process, I did not know I was supposed to. Some of the errors I faced: adding additional quotations which effected loading the images, getting the y value from the box in the list, going out of range and so on.
+* In general, I would say that creating this game was hard. Even though I had a previous experience in coding, I still could not come up with many solutions. I feel like if I were to create tetris by myself, it would take at least a month, but I am pretty sure that I would be able to do that with all my knowledge and internet help.
+* I am a little bit sad that I have not done it perfect, there are still ways to work on, but 95% of what I wanted - I have done.
 
 [Link to the code](https://editor.p5js.org/lizadat/sketches/152VYqEfx)
