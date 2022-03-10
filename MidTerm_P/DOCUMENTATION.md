@@ -8,7 +8,7 @@
 # My game
 * I started making my game with following the series of 7 videos on how to create tetris. The code was clear to me but sometimes I faced problems with understanding the syntax. Because of that I had a few errors while coding, but it helped me to discover javascript more and to learn new functions.
 [The first part of the series is here](https://www.youtube.com/watch?v=Wcb0_Q9r6i4)
-* It took me around 5 days to complete it, but as a result it all worked.
+* It took me around 5 days to complete it, but as a result it all worked. I have separate files with Box (creates a box), Piece(generates piece, does rotations) and Plotform (creates platform, deals with colission) classes. In addition to it I have a file with some the constants for the game which are related to the proccess of playing; collisionHandler which deals with pieces colission; sketch.
 * Another challenge came when I tried to implement my ideas. The first was that I wanted to have a piece of the image to be shown through the piece and the point of the game to be "recreating the image"
 * An image is randomly chosen out of 4 and shown in the beginning of the game. Then the image is converted into the list for displaying it in the piece.
 ![My images](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/images.png)
@@ -22,3 +22,4 @@
 * There is winning and losing in the game. The key is to recreate at least 62% of the image, which is equall to 250 boxes out of 400.
 ![The end](https://github.com/lizadat/Intro_to_IM/blob/264515f82aaa1037995f522a5113c61f0069a8b8/MidTerm_P/progress3_AutoEnd.png)
 
+[Link to the code](https://editor.p5js.org/lizadat/sketches/152VYqEfx)
