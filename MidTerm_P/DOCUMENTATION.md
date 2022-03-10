@@ -29,5 +29,5 @@
 * Unfortunately I have not taken any screenshots of my process, I did not know I was supposed to. Some of the errors I faced: adding additional quotations which effected loading the images, getting the y value from the box in the list, going out of range and so on.
 * In general, I would say that creating this game was hard. Even though I had a previous experience in coding, I still could not come up with many solutions. I feel like if I were to create tetris by myself, it would take at least a month, but I am pretty sure that I would be able to do that with all my knowledge and internet help.
 * I am a little bit sad that I have not done it perfect, there are still ways to work on, but 95% of what I wanted - I have done.
-
+* Unfotunately, there were dissapointments and tears in the procces, but this is how you learn and develop. A note for myself: You know that there is nothing you cannot do. Just rest and start again. 
 [Link to the code](https://editor.p5js.org/lizadat/sketches/152VYqEfx)
