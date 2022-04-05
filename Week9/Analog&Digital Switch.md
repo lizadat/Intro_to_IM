@@ -11,3 +11,5 @@
 * For the digital switch, to make it more creative, I made the LED be on and off with a particular timings when the button is pressed. It goes on for half of the second, then 1/10 of the second off and repeats. 
 * Later on I also found another force sensor, which is much smaller. Even though I do not know the difference (either it does not have a difference at all or the difference is in the range) I decided to use this one because of its convenience. The changes in my LED were not noticed.
 ![The circuit with another force sensor](https://github.com/lizadat/Intro_to_IM/blob/bdc160e2d64ec8879a2dd916f812a29b07c8a422/Week9/photo_2022-04-05%2009.05.38.jpeg) 
+* Important to mention: the red button controls the red LED, and the force sensor - the blue LED.
+* I could not come up with anything creative for the force sensor. For some reason it is not working when you place something heavy on it or press with something else besides your fingers. 
