@@ -1,1 +1,2 @@
 # Exercises
+* Exercise a: make the ellipse move horisontally, which is controlled by one sensor. I chose it to be ultrasound sensor. It measures the distance and maps into the values of the width of my canva and then draws a new ellipse on the mapped x position. I made the ellipses be drawn every time on a new background with transparency, which allows to see the previous ellipses. My range is 20 cm for the sensor, so if my hand is in its furthest - the ellipse is drawn on the right edge; in the closest - the left edge.
