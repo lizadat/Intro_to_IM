@@ -288,4 +288,5 @@ function windPotentiometer() {
 
 *[The video of how it all works](https://youtu.be/KkcJX6ad9-A)
 
+*The circuit for the excercises:
 ![The circuit for the excercises](https://github.com/lizadat/Intro_to_IM/blob/82434d6945a0ebb4acf2b460eba3008a94bbb17a/Week12/Arduino-p5.js_exercises.jpeg)
