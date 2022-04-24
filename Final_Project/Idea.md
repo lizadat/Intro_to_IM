@@ -4,3 +4,8 @@
 * p5.js : The interface will be a simple drawing of the car. The message like "Press UP arrow to start the car moving" will appear. As soon as the key is pressed the car will move OR if the key was pressed it keeps moving. If the DOWN arrow is pressed - the car moves.
 * We might challenge ourselves and try to make the car wireless, which means that Arduino will use Bluetooth or wi-fi in order to "communicate" with p5. 
 * Also I would like to make the car be able to turn, also using right and left arrows. 
+
+* Here are a few examples of what we want to make:
+[Example_1](https://www.youtube.com/watch?v=1n_KjpMfVT0)
+[Example_2](https://www.youtube.com/watch?v=j_ow0ItA7Ck)
+[Example_3](https://www.youtube.com/watch?v=vyZwYuF-wi0)
