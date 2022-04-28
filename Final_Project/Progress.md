@@ -9,4 +9,7 @@ The project consists of 2 part: Arduino and p5.js. We decided to move together w
 
 * After that we glued the rest of the motors with the hot glue and put the wheels on it. It was a technical part, physical. We made sure it was all connected and we also placed the arduino and the brideboards on the car. It is all temporary, as we plan to solder and make it permanent.
 
-![]()
+![2](https://github.com/lizadat/Intro_to_IM/blob/9b3248dc2e1ed7584087e82ecc2ff30a957f56d3/Final_Project/2.jpeg)
+
+* For now with our code only 1 wheel was working, but we were able to control it from p5.js. Also there was used the function keyPressed(), but it was one time thing: is pressed - it runs once and stops in a few seconds. The function should probably be changed to keyIsPressed().
+* Also we need to make sure that all 4 wheels are controlled.
