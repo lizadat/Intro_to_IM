@@ -4,4 +4,9 @@ The project consists of 2 part: Arduino and p5.js. We decided to move together w
 * Secondly, the main idea of our project is to pass the information from p5.js to Arduino in order to control the car's move. As it will be controlled by the arrows, we decided to use the cases: if up, down, right or left arrow is pressed. If the up_arrow is pressed the car is supposed to move constantly, the down_arrow - reverse, back, the right_arrow - turn right, the left - left. In our plans the the side arrows are pressed only one side of the wheels move abd that is why the car is able to turn. However, it is not for sure yet, we will see how it works when we connect the car completely to Arduino and make aal the wheel move forwards and backwards.
 * While using cases we cannot impact the car's speed, but maybe in the end we will change the cases to the list that will be passed to arduino in order to control it. 
 * We connected 4 motors and it worked, so we continued with cutting a part of the wood, about 20 cm to 15 cm and marked where to put the motors.
+
 ![1](https://github.com/lizadat/Intro_to_IM/blob/5a4e1fe8633b72a99139593ed5e3933d52342d9a/Final_Project/1.jpeg)
+
+* After that we glued the rest of the motors with the hot glue and put the wheels on it. It was a technical part, physical. We made sure it was all connected and we also placed the arduino and the brideboards on the car. It is all temporary, as we plan to solder and make it permanent.
+
+![]()
