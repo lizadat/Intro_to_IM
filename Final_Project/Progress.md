@@ -13,3 +13,5 @@ The project consists of 2 part: Arduino and p5.js. We decided to move together w
 
 * For now with our code only 1 wheel was working, but we were able to control it from p5.js. Also there was used the function keyPressed(), but it was one time thing: is pressed - it runs once and stops in a few seconds. The function should probably be changed to keyIsPressed().
 * Also we need to make sure that all 4 wheels are controlled.
+* Unfortunately, when we try to run the code, the information is passed from p5.js tp Arduino, but only 1 wheel is working. We checked the code and all the pins, but it looks like there is a problem with Motor Driver. When I tried to check it with voltage meter, I discovered that only A part of the second Motor Driver is working. 
+![problem1](https://github.com/lizadat/Intro_to_IM/blob/0972802884745a68c95f42769300e80b88bc03ef/Final_Project/problem1.jpeg)
