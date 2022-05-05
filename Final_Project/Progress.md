@@ -24,3 +24,7 @@ The project consists of 2 part: Arduino and p5.js. We decided to move together w
 [Video](https://youtu.be/RvP7uVFEp7E)
 
 * I also created a communication between Arduino and p5.js, but it is useless for now, untill we figure out what to do with needed pins.
+
+# Continue
+* The solution for the lack of the pins is Arduino Mega, which we were able to connect. It appears that some of the pins are not PWM, so I took some time to figure out what was wrong and how to fix it. As a result, all 4 wheels were working properly and were controled from p5.js.
+* Another challenge came when we tried to connect ultrasonic sensor. 
