@@ -37,4 +37,9 @@ The project consists of 2 part: Arduino and p5.js. We decided to move together w
 * As a few people were working in the lab with the wireless connection and some of the hardware was not working properly we had a lot of issues that took plenty of time on our way in making the project.
 * As a result: before connecting we had to make sure that antenas and explorer work; we had to change the antenas PAN ID in order to connect only to our specific antena; resolder XBee shield so it is working with Arduino Mega:
 
-![]()
+![4](https://github.com/lizadat/Intro_to_IM/blob/5608421440bf9964ce2617a7f0ce48ad02e0318e/Final_Project/4.jpeg)
+
+* We had to solder pins 2 with 10 and 3 with 11, so that Arduino Mega will be properly connected to XBee shield.
+* As a result our car, with Arduino Mega, Xbee connection looked like this:
+
+![5](https://github.com/lizadat/Intro_to_IM/blob/5608421440bf9964ce2617a7f0ce48ad02e0318e/Final_Project/4.jpeg)
