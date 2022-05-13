@@ -29,6 +29,7 @@ The project consists of 2 part: Arduino and p5.js. We decided to move together w
 * The solution for the lack of the pins is Arduino Mega, which we were able to connect. It appears that some of the pins are not PWM, so I took some time to figure out what was wrong and how to fix it. As a result, all 4 wheels were working properly and were controled from p5.js.
 ![3](https://github.com/lizadat/Intro_to_IM/blob/1608f4f99de1b0609a9e65fb9638412d44306fd9/Final_Project/3.jpeg)
 * Another challenge came when we tried to connect ultrasonic sensor. When it is connected to Arduino, the wheels are turning, however they are lagging and do not stop. It is not working properly.
+* Unfortunately, we had to quit our idea with the ultrasonic sensor. Maybe if we had more time we would make it work.
 
 
 # XBee Connection
