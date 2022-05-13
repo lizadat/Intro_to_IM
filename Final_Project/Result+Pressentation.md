@@ -6,8 +6,12 @@
 
 # Presentation in class
 * For the presentation in class we had around 7 minutes. We prepared our presentation and also showed how it worked. 
+The powerpoint presentation can be found [here](https://docs.google.com/presentation/d/142WFYLCXTMJJ5VbgBYLytWZnr0qSKPl156OLqVjfMVs/edit?usp=sharing)
+
 ![7](https://github.com/lizadat/Intro_to_IM/blob/1ecf91c3932a092285b9a5308e4bde9500a78a2b/Final_Project/7.jpeg)
 ![8](https://github.com/lizadat/Intro_to_IM/blob/1ecf91c3932a092285b9a5308e4bde9500a78a2b/Final_Project/8.jpeg)
+
+* Fortunately, we were able to complete our project before the presentation and nothing went wrong.
 
 
 # The Presentation Day
