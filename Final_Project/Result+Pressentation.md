@@ -11,6 +11,8 @@ The powerpoint presentation can be found [here](https://docs.google.com/presenta
 ![7](https://github.com/lizadat/Intro_to_IM/blob/1ecf91c3932a092285b9a5308e4bde9500a78a2b/Final_Project/7.jpeg)
 ![8](https://github.com/lizadat/Intro_to_IM/blob/1ecf91c3932a092285b9a5308e4bde9500a78a2b/Final_Project/8.jpeg)
 
+* There is also a short video of how we presented it in class:
+[Video](https://youtu.be/Dv4H5d7utEI)
 * Fortunately, we were able to complete our project before the presentation and nothing went wrong.
 
 
@@ -20,4 +22,6 @@ The powerpoint presentation can be found [here](https://docs.google.com/presenta
 
 ![p1](https://github.com/lizadat/Intro_to_IM/blob/1ecf91c3932a092285b9a5308e4bde9500a78a2b/Final_Project/p1.jpeg)
 ![p2](https://github.com/lizadat/Intro_to_IM/blob/1ecf91c3932a092285b9a5308e4bde9500a78a2b/Final_Project/p2.jpeg)
+
+* This is me, holding the car and being happy to be done with this class.
 ![p3](https://github.com/lizadat/Intro_to_IM/blob/1ecf91c3932a092285b9a5308e4bde9500a78a2b/Final_Project/p3.jpeg)
