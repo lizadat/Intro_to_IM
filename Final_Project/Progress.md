@@ -35,4 +35,6 @@ The project consists of 2 part: Arduino and p5.js. We decided to move together w
 * In order to make the car move independently, without the wire behind it we decided to use XBee communication.
 * For that XBee Shield, Antenas and explorer were borrowed from the IM lab.
 * As a few people were working in the lab with the wireless connection and some of the hardware was not working properly we had a lot of issues that took plenty of time on our way in making the project.
-* 
+* As a result: before connecting we had to make sure that antenas and explorer work; we had to change the antenas PAN ID in order to connect only to our specific antena; resolder XBee shield so it is working with Arduino Mega:
+
+![]()
